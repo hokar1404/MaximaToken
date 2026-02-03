@@ -1,4 +1,5 @@
-[Token Name] - Empowering the Future on BNB Chain
+[Token Name] 
+Empowering the Future on BNB Chain
 Welcome to [Token Name], a cutting-edge token built on the BNB Chain, designed to revolutionize [your project's focus, e.g., decentralized finance, gaming, or digital ownership]. Our mission is to deliver fast, secure, and scalable solutions for the next generation of blockchain users.
 Why [Token Name]?
 
