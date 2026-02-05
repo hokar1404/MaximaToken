@@ -1,0 +1,110 @@
+.section-nav {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 20px 0;
+}
+
+.section-nav details {
+  position: relative;
+}
+
+.section-nav summary {
+  cursor: pointer;
+  padding: 10px 22px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.25);
+  list-style: none;
+}
+
+.section-nav .panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #001f3f;
+  padding: 14px;
+  border-radius: 0 0 8px 8px;
+  min-width: 220px;
+}
+
+.section-nav .panel a {
+  display: block;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: #4caf50;
+}
+
+/* === FIXED READABILITY & UNIFORM SKY THEME === */
+
+body {
+  background: #e0f7ff;          /* very light sky blue - uniform across entire page */
+  color: #0d1b2a;               /* dark text for high readability */
+  min-height: 100vh;            /* ensures full page coverage */
+}
+
+/* Optional: very subtle gradient if you want slight depth (almost imperceptible) */
+/*
+body {
+  background: linear-gradient(
+    180deg,
+    #e0f7ff 0%,
+    #c3e9ff 50%,
+    #e0f7ff 100%
+  );
+  color: #0d1b2a;
+  min-height: 100vh;
+}
+*/
+
+/* section navigation background */
+.section-nav {
+  background: rgba(135,206,235,0.18);
+  border-bottom: 1px solid rgba(135,206,235,0.35);
+}
+
+/* buttons (section titles) */
+.section-nav summary {
+  background: #0b2a44;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  border: 1px solid rgba(135,206,235,0.6);
+}
+
+.section-nav summary:hover {
+  background: #123a5c;
+}
+
+/* dropdown panel */
+.section-nav .panel {
+  background: #0b2a44;
+  border: 1px solid rgba(135,206,235,0.4);
+}
+
+/* dropdown links */
+.section-nav .panel a {
+  color: #9adfff;
+}
+
+.section-nav .panel a:hover {
+  background: rgba(135,206,235,0.2);
+  color: #ffffff;
+}
+
+/* === BNB NETWORK SYMBOL === */
+.bnb-network {
+  text-align: center;
+  margin: 40px 0 10px;
+}
+
+.bnb-network img {
+  width: 90px;
+  opacity: 0.9;
+}
+
+.bnb-network p {
+  margin-top: 10px;
+  color: #0066cc;               /* darker for better visibility on light background */
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
